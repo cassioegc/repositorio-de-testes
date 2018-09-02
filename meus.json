@@ -1,5 +1,1 @@
-[
-	[{"semestre": 1.0, "nome": "Fundamentos de Matem\u00e1tica para Ci\u00eancia da Computa\u00e7\u00e3o I", "creditos": 4.0, "codigo": 1}, {"semestre": 1.0, "nome": "Programa\u00e7\u00e3o I", "creditos": 4.0, "codigo": 2}, {"semestre": 1.0, "nome": "Laborat\u00f3rio de Programa\u00e7\u00e3o I", "creditos": 4.0, "codigo": 3}],
-	[{"semestre": 2.0, "nome": "Programa\u00e7\u00e3o II", "creditos": 4.0, "codigo": 7}, {"semestre": 2.0, "nome": "Laborat\u00f3rio de Programa\u00e7\u00e3o II", "creditos": 4.0, "codigo": 8}],
-	[{"semestre": 2.0, "nome": "Optativa Geral", "creditos": 4.0, "codigo": 90}]
-]
+{"alocacao":[[],["5b7b6bfe9c3d6e344bf4a69e"],["5b7b6bfe9c3d6e344bf4a69e"]],"_id":"5b8b4217fb9fe55b427330ec","email":"cassio.cordeiro","matricula":"116210038"}
