@@ -1,1 +1,667 @@
-[{"_id":"5b7b6bfe9c3d6e344bf4a69e","codigo":2,"nome":"Programação I","semestre":"1","creditos":4}]
+[
+{
+semestre: 1,
+pos_requisitos: [
+5,
+6
+],
+disciplina: "Fundamentos de Matemática para Ciência da Computação I",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 1,
+horas: 60
+},
+{
+semestre: 1,
+pos_requisitos: [
+7,
+8,
+16,
+17,
+22,
+23
+],
+disciplina: "Programação I",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 2,
+horas: 60
+},
+{
+semestre: 1,
+pos_requisitos: [
+7,
+8,
+16,
+17,
+22,
+23
+],
+disciplina: "Laboratório de Programação I",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 3,
+horas: 60
+},
+{
+semestre: 1,
+pos_requisitos: [
+19,
+20,
+24
+],
+disciplina: "Introdução à Computação",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 4,
+horas: 60
+},
+{
+semestre: 1,
+pos_requisitos: [ ],
+disciplina: "Optativa Geral",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 89,
+horas: 60
+},
+{
+semestre: 2,
+pos_requisitos: [
+9,
+10,
+11,
+15
+],
+disciplina: "Fundamentos de Matemática para Ciência da Computação II",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+1
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 5,
+horas: 60
+},
+{
+semestre: 2,
+pos_requisitos: [
+10,
+11,
+15
+],
+disciplina: "Cálculo Diferencial e Integral I",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+1
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 6,
+horas: 60
+},
+{
+semestre: 2,
+pos_requisitos: [
+12,
+13
+],
+disciplina: "Programação II",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+2,
+3
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 7,
+horas: 60
+},
+{
+semestre: 2,
+pos_requisitos: [
+12,
+13
+],
+disciplina: "Laboratório de Programação II",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+2,
+3
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 8,
+horas: 60
+},
+{
+semestre: 2,
+pos_requisitos: [ ],
+disciplina: "Optativa Geral",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 90,
+horas: 60
+},
+{
+semestre: 3,
+pos_requisitos: [ ],
+disciplina: "Álgebra Linear",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+5
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 9,
+horas: 60
+},
+{
+semestre: 3,
+pos_requisitos: [ ],
+disciplina: "Lógica para Computação",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+6,
+5
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 10,
+horas: 60
+},
+{
+semestre: 3,
+pos_requisitos: [ ],
+disciplina: "Cálculo Diferencial e Integral II",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+6,
+5
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 11,
+horas: 60
+},
+{
+semestre: 3,
+pos_requisitos: [
+18,
+30
+],
+disciplina: "Estrutura de Dados",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+7,
+8
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 12,
+horas: 60
+},
+{
+semestre: 3,
+pos_requisitos: [
+30
+],
+disciplina: "Laboratório de Estrutura de Dados",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+7,
+8
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 13,
+horas: 60
+},
+{
+semestre: 3,
+pos_requisitos: [ ],
+disciplina: "Teoria dos Grafos",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 14,
+horas: 60
+},
+{
+semestre: 4,
+pos_requisitos: [
+21
+],
+disciplina: "Introdução à Probabilidade",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+5,
+6
+],
+codigo_departamento: 11140000,
+codigo_disciplina: 15,
+horas: 60
+},
+{
+semestre: 4,
+pos_requisitos: [ ],
+disciplina: "Projeto de Software",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+2,
+3
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 16,
+horas: 60
+},
+{
+semestre: 4,
+pos_requisitos: [
+26,
+31
+],
+disciplina: "Paradigmas de Linguagens de Programação",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+2,
+3
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 17,
+horas: 60
+},
+{
+semestre: 4,
+pos_requisitos: [ ],
+disciplina: "Banco de Dados I",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+12
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 18,
+horas: 60
+},
+{
+semestre: 4,
+pos_requisitos: [ ],
+disciplina: "Organização e Arquitetura de Computadores",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+4
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 19,
+horas: 60
+},
+{
+semestre: 4,
+pos_requisitos: [
+25
+],
+disciplina: "Laboratório de Organização e Arquitetura de Computadores",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+4
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 20,
+horas: 60
+},
+{
+semestre: 5,
+pos_requisitos: [ ],
+disciplina: "Estatística Aplicada",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+15
+],
+codigo_departamento: 11140000,
+codigo_disciplina: 21,
+horas: 60
+},
+{
+semestre: 5,
+pos_requisitos: [ ],
+disciplina: "Análise de Sistemas",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+2,
+3
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 22,
+horas: 60
+},
+{
+semestre: 5,
+pos_requisitos: [
+32
+],
+disciplina: "Engenharia de Software",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+2,
+3
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 23,
+horas: 60
+},
+{
+semestre: 5,
+pos_requisitos: [ ],
+disciplina: "Redes de Computadores",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+4
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 24,
+horas: 60
+},
+{
+semestre: 5,
+pos_requisitos: [
+28
+],
+disciplina: "Sistemas Operacionais",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+20
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 25,
+horas: 60
+},
+{
+semestre: 5,
+pos_requisitos: [
+29
+],
+disciplina: "Teoria da Computação",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+17
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 26,
+horas: 60
+},
+{
+semestre: 6,
+pos_requisitos: [ ],
+disciplina: "Metodologia Científica",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 27,
+horas: 60
+},
+{
+semestre: 6,
+pos_requisitos: [ ],
+disciplina: "Programação Concorrente",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+25
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 28,
+horas: 60
+},
+{
+semestre: 6,
+pos_requisitos: [ ],
+disciplina: "Inteligência Artificial",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+26
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 29,
+horas: 60
+},
+{
+semestre: 6,
+pos_requisitos: [ ],
+disciplina: "Optativa Específica",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 92,
+horas: 60
+},
+{
+semestre: 6,
+pos_requisitos: [ ],
+disciplina: "Optativa Específica",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 103,
+horas: 60
+},
+{
+semestre: 7,
+pos_requisitos: [ ],
+disciplina: "Análise e Técnicas de Algoritmos",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+12,
+13
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 30,
+horas: 60
+},
+{
+semestre: 7,
+pos_requisitos: [ ],
+disciplina: "Compiladores",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+17
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 31,
+horas: 60
+},
+{
+semestre: 7,
+pos_requisitos: [ ],
+disciplina: "Optativa Específica",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 93,
+horas: 60
+},
+{
+semestre: 7,
+pos_requisitos: [ ],
+disciplina: "Optativa Específica",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 94,
+horas: 60
+},
+{
+semestre: 7,
+pos_requisitos: [ ],
+disciplina: "Optativa Geral",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 95,
+horas: 60
+},
+{
+semestre: 8,
+pos_requisitos: [
+34
+],
+disciplina: "Projeto em Computação I",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+23
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 32,
+horas: 60
+},
+{
+semestre: 8,
+pos_requisitos: [
+35
+],
+disciplina: "Projeto de Trabalho de Conclusão de Curso",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 33,
+horas: 60
+},
+{
+semestre: 8,
+pos_requisitos: [ ],
+disciplina: "Optativa Específica",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 96,
+horas: 60
+},
+{
+semestre: 8,
+pos_requisitos: [ ],
+disciplina: "Optativa Específica",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 97,
+horas: 60
+},
+{
+semestre: 8,
+pos_requisitos: [ ],
+disciplina: "Optativa Geral",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 98,
+horas: 60
+},
+{
+semestre: 9,
+pos_requisitos: [ ],
+disciplina: "Projeto em Computação II",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+32
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 34,
+horas: 60
+},
+{
+semestre: 9,
+pos_requisitos: [ ],
+disciplina: "Trabalho de Conclusão de Curso",
+creditos: 4,
+tipo: "Obrigatória",
+pre_requisitos: [
+33
+],
+codigo_departamento: 14110000,
+codigo_disciplina: 35,
+horas: 60
+},
+{
+semestre: 9,
+pos_requisitos: [ ],
+disciplina: "Optativa Específica",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 99,
+horas: 60
+},
+{
+semestre: 9,
+pos_requisitos: [ ],
+disciplina: "Optativa Específica",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 100,
+horas: 60
+},
+{
+semestre: 9,
+pos_requisitos: [ ],
+disciplina: "Optativa Específica",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 101,
+horas: 60
+},
+{
+semestre: 9,
+pos_requisitos: [ ],
+disciplina: "Optativa Específica",
+creditos: 4,
+tipo: "Complementar",
+pre_requisitos: [ ],
+codigo_departamento: 14110000,
+codigo_disciplina: 102,
+horas: 60
+}
+]
