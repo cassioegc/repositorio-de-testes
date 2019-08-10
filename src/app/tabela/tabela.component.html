@@ -1,0 +1,7 @@
+<table>
+    <tbody>
+    <td *ngFor="let item of dados">@{{ item.type }}
+        <tr *ngFor="let valor of item.values"> {{ valor }}</tr>
+    </td>
+</tbody>
+  </table>
