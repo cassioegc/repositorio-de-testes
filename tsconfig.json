@@ -17,6 +17,11 @@
     "lib": [
       "es2018",
       "dom"
+    ],
+    "types": [
+      "jasmine",
+      "jquery",
+      "materialize-css"
     ]
   },
   "angularCompilerOptions": {
