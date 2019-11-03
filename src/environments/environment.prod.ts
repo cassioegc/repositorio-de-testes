@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  store_server: 'https://upplify-api.herokuapp.com/'
 };

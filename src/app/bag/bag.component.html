@@ -1,0 +1,24 @@
+<div class="card">
+    <div class="card-body">
+  <h1 class="card-title">Your bag</h1>
+  <div class="card-text" *ngIf="!items || items.length == 0">
+    Your bag is empty.
+  </div>
+  <div class="card-text" *ngIf="items && items.length > 0">
+    <div class="items" *ngFor="let item of items">
+      <div>
+        {{ item.amount + "x " + item.food.title }}
+      </div>
+      <div class="actions">
+        <button class="btn-actions" (click)="addFood(item.food)">+</button>
+        <button class="btn-actions" (click)="decreaseFood(item.food.id)">-</button>
+      </div>
+    </div>
+    <hr />
+    <div>Total: {{ total | number: ".2" | currency }}</div>
+    <button class="btn btn-secondary btn-checkout" (click)="goTocheckout()">
+      checkout
+    </button>
+  </div>
+  </div>
+</div>

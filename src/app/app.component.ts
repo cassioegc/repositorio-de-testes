@@ -1,24 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { AuthService } from './login/auth.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.sass']
 })
-export class AppComponent implements OnInit {
-
-  title = 'rotas';
-
-  mostrarMenu = false;
-
-  constructor(private authService: AuthService) {
-
-  }
-  ngOnInit() {
-    this.authService.mostrarMenuEmitter.subscribe(
-      mostrarMenu => {
-        this.mostrarMenu = mostrarMenu;
-      });
-  }
+export class AppComponent {
+  title = 'test-upplify';
 }
