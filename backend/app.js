@@ -10,7 +10,7 @@ app.use(cors());
 app.get("/", (req, res) => {
   const data = req.query.data;
 
-  let config = {
+  const config = {
     method: 'get',
     maxBodyLength: Infinity,
     url: `https://sistemasweb.b3.com.br/PlantaoNoticias/Noticias/ListarTitulosNoticias?agencia=18&palavra=${req.query.papel}&dataInicial=${data}&dataFinal=${data}`,
@@ -34,7 +34,7 @@ app.get("/", (req, res) => {
 
   axios.request(config)
     .then((response) => {
-      res.json(JSON.stringify(response.data)).send();
+      res.json(response.data).send();
     })
     .catch((error) => {
       res.status(500)
