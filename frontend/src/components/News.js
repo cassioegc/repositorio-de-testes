@@ -9,12 +9,12 @@ export const News = ({ papel }) => {
 
     useEffect(() => {
         const data = new Date().toLocaleDateString('en-CA');
-        fetch(`http://192.168.100.6:8080?papel=${papel}&data=${data}`, { headers: { 'cache-control': 'no-cache', } })
+        fetch(`http://localhost:8080?papel=${papel}&data=${data}`, { headers: { 'cache-control': 'no-cache', } })
             .then(data =>
                 data.json()
             )
             .then(data => {
-                setNoticias(JSON.parse(data))
+                setNoticias(data)
             });
     }, [papel]);
 
