@@ -19,25 +19,28 @@ export const Home = () => {
     "csan",
     "vale",
   ];
-  const [date, setDate] = useState('');
+  const [date, setDate] = useState(new Date().toLocaleDateString("en-CA"));
 
   const handleDateChange = (e) => {
     const value = e.target.value;
-    //const data = new Date(value).toLocaleDateString("en-CA");
     setDate(value);
   };
 
   return (
-    <div>
+    date && (
       <div>
-        <input id="date" type="date" onChange={handleDateChange} />
-        {date}
-      </div>
-      <div>
-        {papeis.map((papel) => (
-          <News papel={papel} key={papel} data={date} />
-        ))}
-      </div>
-    </div>
+        <div style={{margin: "10px 0 10px 0"}}>
+          <input id="date" type="date" onChange={handleDateChange} value={date} style={{
+            borderStyle: "double",
+            borderColor: "var(--bs-heading-color)",
+            borderRadius: "10px"
+          }} />
+        </div>
+        <div>
+          {papeis.map((papel) => (
+            <News papel={papel} key={papel} data={date} />
+          ))}
+        </div>
+      </div>)
   );
 };
