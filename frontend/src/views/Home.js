@@ -27,20 +27,20 @@ export const Home = () => {
   };
 
   return (
-    date && (
+    <div>
+      <div style={{ margin: "10px 0 10px 0" }}>
+        <input id="date" type="date" onChange={handleDateChange} value={date} style={{
+          borderStyle: "double",
+          borderColor: "var(--bs-heading-color)",
+          borderRadius: "10px",
+          textAlign: "center"
+        }} />
+      </div>
       <div>
-        <div style={{margin: "10px 0 10px 0"}}>
-          <input id="date" type="date" onChange={handleDateChange} value={date} style={{
-            borderStyle: "double",
-            borderColor: "var(--bs-heading-color)",
-            borderRadius: "10px"
-          }} />
-        </div>
-        <div>
-          {papeis.map((papel) => (
-            <News papel={papel} key={papel} data={date} />
-          ))}
-        </div>
-      </div>)
+        {papeis.map((papel) => (
+          <News papel={papel} key={papel} data={date} />
+        ))}
+      </div>
+    </div>
   );
 };
