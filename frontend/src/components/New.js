@@ -10,7 +10,7 @@ export const New = ({ title, date }) => {
     }, [date]);
 
     return (
-        <Card style={{ maxWidth: '18rem' }}>
+        <Card style={{ maxWidth: '18rem', class: 'col-sm', flex: '1 200px' }}>
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{formattedDate}</Card.Subtitle>

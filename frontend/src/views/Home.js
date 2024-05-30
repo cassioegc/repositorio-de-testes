@@ -3,6 +3,7 @@ import { News } from "../components/News";
 
 export const Home = () => {
   const papeis = [
+    "alzm",
     "xpml",
     "visc",
     "bcff",
