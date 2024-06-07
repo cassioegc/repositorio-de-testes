@@ -19,6 +19,7 @@ export const Home = () => {
     "vbbr",
     "csan",
     "vale",
+    "prio",
   ];
   const [date, setDate] = useState(new Date().toLocaleDateString("en-CA"));
 
