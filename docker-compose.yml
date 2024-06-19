@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  frontend:
+    build: ./frontend
+    container_name: news-frontend
+    ports:
+      - 8000:80
+    depends_on:
+      - backend
+  backend:
+    build: ./backend
+    container_name: news-backend
+    ports:
+      - 8080:8080
