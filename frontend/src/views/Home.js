@@ -3,23 +3,21 @@ import { News } from "../components/News";
 
 export const Home = () => {
   const papeis = [
-    "alzm",
-    "xpml",
-    "visc",
-    "bcff",
-    "mxrf",
-    "irdm",
-    "hglg",
-    "xplg",
     "alup",
-    "itsa",
-    "taee",
-    "pssa",
-    "klbn",
-    "vbbr",
+    "bbas",
+    "brbi",
     "csan",
-    "vale",
+    "itsa",
+    "klbn",
     "prio",
+    "pssa",
+    "vale",
+    "vbbr",
+
+    "alzc",
+    "bthf",
+    "hglg",
+    "xplg"
   ];
   const [date, setDate] = useState(new Date().toLocaleDateString("en-CA"));
 
